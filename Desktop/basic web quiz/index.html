@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basic Web Quiz</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Basic Web Quiz</h1>
+    <div id="quiz">
+      <div id="question-container"></div>
+      <div id="answer-buttons" class="btn-grid"></div>
+      <p id="timer">Time left: <span id="time">15</span> seconds</p>
+      <button id="submit-btn" class="btn">Submit</button>
+      <button id="next-btn" class="btn hide">Next</button>
+    </div>
+    <div id="score-container" class="hide">
+      <h2>Your Score: <span id="score"></span></h2>
+      <p id="feedback"></p>
+      <button id="restart-btn" class="btn">Restart Quiz</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
